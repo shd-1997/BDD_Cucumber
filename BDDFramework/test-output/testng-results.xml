@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-20T12:20:57 IST" name="Suite" finished-at="2024-05-20T12:21:01 IST" duration-ms="3756">
+  <suite started-at="2024-05-23T11:15:22 IST" name="Suite" finished-at="2024-05-23T11:15:25 IST" duration-ms="3545">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucumber.testrunner.RunCucumberTest@23f5b5dc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-05-20T12:20:57 IST" name="Test" finished-at="2024-05-20T12:21:01 IST" duration-ms="3756">
+    <test started-at="2024-05-23T11:15:22 IST" name="Test" finished-at="2024-05-23T11:15:25 IST" duration-ms="3545">
       <class name="com.cucumber.testrunner.RunCucumberTest">
-        <test-method is-config="true" signature="runDriver()[pri:0, instance:com.cucumber.testrunner.RunCucumberTest@23f5b5dc]" started-at="2024-05-20T12:20:57 IST" name="runDriver" finished-at="2024-05-20T12:20:59 IST" duration-ms="2395" status="PASS">
+        <test-method is-config="true" signature="runDriver()[pri:0, instance:com.cucumber.testrunner.RunCucumberTest@23f5b5dc]" started-at="2024-05-23T11:15:22 IST" name="runDriver" finished-at="2024-05-23T11:15:24 IST" duration-ms="2022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDriver -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cucumber.testrunner.RunCucumberTest@23f5b5dc]" started-at="2024-05-20T12:20:59 IST" name="setUpClass" finished-at="2024-05-20T12:21:00 IST" duration-ms="573" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cucumber.testrunner.RunCucumberTest@23f5b5dc]" started-at="2024-05-23T11:15:24 IST" name="setUpClass" finished-at="2024-05-23T11:15:24 IST" duration-ms="562" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@611640f0]]>
+                <![CDATA[org.testng.TestRunner@63a28987]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucumber.testrunner.RunCucumberTest@23f5b5dc]" started-at="2024-05-20T12:21:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-20T12:21:01 IST" duration-ms="731" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucumber.testrunner.RunCucumberTest@23f5b5dc]" started-at="2024-05-23T11:15:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-23T11:15:25 IST" duration-ms="888" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -44,15 +44,15 @@
             </message>
             <full-stacktrace>
               <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at com.cucumber.stepdefinitions.StepDefinition.user_is_on_login_page(StepDefinition.java:23)
-at ✽.user is on login page(file:///C:/Users/souha/eclipse-workspace/BDDFramework/src/test/resources/Features/TestCases.feature:6)
+at com.cucumber.stepdefinitions.StepDefinition.user_enters_valid_username_and_password(StepDefinition.java:28)
+at ✽.user enters valid username and password(file:///C:/Users/souha/git/BDD_Cucumber/BDDFramework/src/test/resources/Features/TestCases.feature:7)
 ]]>
             </full-stacktrace>
           </exception> <!-- io.cucumber.java.PendingException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.testrunner.RunCucumberTest@23f5b5dc]" started-at="2024-05-20T12:21:01 IST" name="tearDownClass" finished-at="2024-05-20T12:21:01 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.testrunner.RunCucumberTest@23f5b5dc]" started-at="2024-05-23T11:15:25 IST" name="tearDownClass" finished-at="2024-05-23T11:15:25 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

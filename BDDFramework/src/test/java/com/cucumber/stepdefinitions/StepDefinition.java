@@ -19,8 +19,7 @@ public class StepDefinition extends LaunchBrowsers {
 
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	   lp.enterUsername("standard_user");
 	}
 
 	@When("user enters valid username and password")

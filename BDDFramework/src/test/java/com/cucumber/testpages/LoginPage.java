@@ -36,6 +36,7 @@ public class LoginPage extends CommonMethods {
 	
 	public void enterUsername(String user) {
 		waitforvisibilityofelement(username);
+		username.sendKeys(user);
 	}
 
 }
